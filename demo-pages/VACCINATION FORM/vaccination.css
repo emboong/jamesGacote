@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-size: auto;
+}
+body{
+    background-image: url(vaccine.jpg);
+    font-size: 25px;
+    display: grid;
+    text-align: center;
+    font: x-large;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+h1{
+    text-align: center;
+}
+input{
+    width: auto;
+}
+.item button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  .item button :hover{
+    transform: scale(1.04);
+  }

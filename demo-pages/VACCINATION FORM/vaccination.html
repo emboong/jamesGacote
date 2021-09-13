@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VACCINATION FORM</title>
+    <link rel="stylesheet" href="vaccination.css">
+</head>
+<body>
+
+    <section>
+        <article>
+            <div>
+                <h1> VACCINE REGISTRATION</h1>
+                <br>
+                <br>
+            </div>
+            
+            <div class="text">
+                
+                <label for="Fname">First Name</label>
+                <br>
+                <input type="text" size="20" id="Fname" placeholder="Enter first name" part="[A,Z], [a,z]" required>
+            </div>
+            <br>
+            
+            <div>
+                <label for="Lname">Last Name</label>
+                <br>
+                <input type="text" id="Lname" placeholder="Enter last name" part="[A,Z], [a,z]" required>
+            </div>
+            <br>
+            <div>
+                <label for="Initial">Middle Initial</label>
+                <br>
+                <input type="text" id="Initial" placeholder="Enter middle initial" part="[A,Z], [a,z]" required>
+            </div>
+            <br>
+            <div>
+                <label for="suffix">Suffix</label>
+                <br>
+                <input type="text" id="Suffix" placeholder="Enter Suffix" part="[A,Z], [a,z]" required>
+            </div>
+            <br>
+            <div>
+                <label for="Gender">Gender</label>
+                <br>
+                <br>
+                <input type="radio" id="Male" name="Male" value="Male">
+                <label for="Male">Male</label>
+                <input type="radio" id="Female" name="Female" value="Female">
+                <label for="Female">Female</label>
+            </div>
+            <br>
+            <div>
+                <label for="address">Complete Address</label>
+                <br>
+                <input type="text" id="address" placeholder="Enter complete address" part="[A,Z], [a,z], [0,9]" required>
+            </div>
+            <br>
+            <div>
+                <label for="occupation">Occupation</label>
+                <br>
+                <input type="text" id="occupation" placeholder="Enter your occupation" part="[A,Z], [a,z]" required>
+            </div>
+            <br>
+            <div>
+                <label for="email">Email</label>
+                <br>
+                <input type="text" id="email" placeholder="Enter your email" part="[A,Z], [a,z]" required>
+            </div>
+            <br>
+            <div>
+                <label for="contact">Phone Contact</label>
+                <br>
+                <input type="number" id="contact" placeholder="Enter your phone/telephone number" part="[A,Z], [a,z]" required>
+            </div>
+            <br>
+            <div>
+                <form>
+                    <fieldset>
+                      <legend>Select some of the sickness that you've been experienced three weeks ago:</legend>
+                      <div>
+                        <input type="checkbox" id="Fever" name="source" value="Fever">
+                        <label for="instagram">Fever</label>
+                      </div>
+                      <div>
+                        <input type="checkbox" id="Headache" name="source" value="Headache">
+                        <label for="facebook">Headache</label>
+                      </div>
+                      <div>
+                        <input type="checkbox" id="Dry cough" name="source" value="Dry cough">
+                        <label for="search-engine">Dry cough</label>
+                      </div>
+                      <div>
+                        <input type="checkbox" id="Sore throat" name="source" value="Sore throat">
+                        <label for="word-of-mouth">Sore throat</label>
+                      </div>
+                      <div>
+                        <input type="checkbox" id="Tiredness" name="source" value="Tiredness">
+                        <label for="press">Tiredness</label>
+                      </div>
+                      <div>
+                        <input type="checkbox" id="Diarrhea" name="source" value="Diarrhea">
+                        <label for="event">Diarrhea</label>
+                      </div>
+                      <div>
+                        <input type="checkbox" id="None" name="source" value="None">
+                        <label for="billboard">None of the above</label>
+                      </div>
+                      <div>
+                          <br>
+                        <label for="allergies">Specify a kind of allergy you have, if none kindly type "none."</label>
+                        <br>
+                        <input type="text" id="allergies" placeholder="Type here" part="[A,Z], [a,z]" required>
+                    </div>
+                    <div>
+                        <br>
+                      <label for="history">Enter your health history, if none kindly type "none."</label>
+                      <br>
+                      <input type="text" id="history" placeholder="Type here" part="[A,Z], [a,z]" required>
+                  </div>
+                  <div>
+                    <br>
+                    <label for="schedule">Enter Schedule you wish to get vaccinated:</label>
+                    <br>
+                    <input type="date" id="schedule" name="schedule">
+              </div>
+              <div>
+                <br>
+                <label>Choose vaccine:
+                    <br>
+                    <input list="vaccine" placeholder="Choose vaccine" name="vaccine" /></label>
+                    <datalist id="vaccine">
+                      <option value="Pfizer">
+                      <option value="Sinovac">
+                      <option value="Moderna">
+                      <option value="Astrazeneca">
+                      <option value="Johnson & Johnson’s Janssen">
+                    </datalist>
+                    <br>
+                    <br>
+          </div>
+             <div>
+                 <br>
+                 <selection>
+                     <div class="item">
+                        <button type="button">Reset</button> 
+                        
+                    <button type="button">Submit</button> 
+                    
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                </div>
+                 </selection>
+                
+            </div>
+        </article>
+    </section>
+    
+</body>
+</html>
