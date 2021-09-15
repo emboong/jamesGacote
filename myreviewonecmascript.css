@@ -1,7 +1,12 @@
 body {
     font-family: "Lato", sans-serif;
     font-size: 20px;
-    background-color: rgb(176, 219, 18);
+    background-color: rgb(66, 13, 110);
+    color: white;
+    
+  }
+  h1{
+    color: white;
   }
   
   
@@ -10,8 +15,9 @@ body {
     max-height: 100%;
     margin: 30px auto;
     padding: 15px;
-    background-color:rgb(210, 255, 47);
+    background-color:rgb(72, 13, 121);
     border-radius: 5px;
+    
   }
   
   .background{
@@ -21,6 +27,7 @@ body {
   }
   #title {
     text-align: center;
+    
   }
   
   #main > p {
@@ -32,7 +39,7 @@ body {
     max-width: 800px;
     margin: 0 auto;
     padding: 15px;
-    background-color:rgb(238, 252, 42);
+    background-color:rgb(68, 7, 119);
     
     
   }
@@ -43,7 +50,7 @@ body {
   width: 20%;
   }
   span{
-    color: rgb(170, 26, 189);
+    color: rgb(165, 22, 201);
     font-weight: bolder;
 }
   #image {
