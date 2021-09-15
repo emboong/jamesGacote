@@ -4,13 +4,13 @@
     background-size: auto;
 }
 body{
-    background-image: url(vaccine.jpg);
+    background-color: rgb(139, 7, 139);
     font-size: 25px;
     display: grid;
     text-align: center;
     font: x-large;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    
+    color: white;
 }
 h1{
     text-align: center;
@@ -19,7 +19,7 @@ input{
     width: auto;
 }
 .item button {
-    background-color: #4CAF50; /* Green */
+    background-color: #a51f93;
     border: none;
     color: white;
     padding: 15px 32px;

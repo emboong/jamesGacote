@@ -5,6 +5,10 @@
     font-family: sans-serif;
     
 }
+body    {
+    color: rgb(255, 255, 255);
+    background-color: rgb(126, 9, 126);
+}
 input{
     display: none;
 }
@@ -23,7 +27,7 @@ h1::before{
     position: absolute;
     width: 100px;
     height: 3px;
-    background-color: crimson;
+    background-color: rgb(160, 10, 165);
     bottom: -10px;
     left: 50%;
     transform: translateX(-50%);
@@ -41,21 +45,21 @@ h1::before{
     }
 }
 .top-content{
-    background-color: rgb(209, 209, 209);
+    background-color: rgb(182, 8, 182);
     width: 90%;
     margin: 0 auto 20px auto;
     height: 60px;
     display: flex;
     align-items: center;
     border-radius: 5px;
-    box-shadow: 3px 3px 5px rgb(247, 23, 23);
+    box-shadow: 3px 3px 5px rgb(226, 50, 212);
 }
 h3{
     height: 100%;
-    background-color: rgb(155, 151, 151);
+    background-color: rgb(186, 9, 209);
     line-height: 60px;
     padding: 0 50px;
-    color: rgb(65, 64, 64);
+    color: rgb(255, 255, 255);
 }
 label{
     display: inline-block;
@@ -63,7 +67,7 @@ label{
     margin: 0 20px;
     line-height: 60px;
     font-size: 18px;
-    color: gray;
+    color: rgb(255, 255, 255);
     cursor: pointer;
     transition: color .5s;
 }
@@ -81,7 +85,7 @@ label:hover{
     position: relative;
     height: 230px;
     border-radius: 10px;
-    box-shadow: 3px 3px 5px lightgray;
+    box-shadow: 3px 3px 5px rgb(155, 3, 147);
     cursor: pointer;
     transition: .5s;
 }
@@ -96,7 +100,7 @@ label:hover{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: rgb(46, 46, 46);
+    color: rgb(118, 5, 146);
     font-size: 22px;
     font-weight: bold;
     width: 100%;
@@ -114,7 +118,7 @@ label:hover{
     left: 0;
     border-radius: 10px;
     height: 0;
-    background-color: rgb(146, 146, 146);
+    background-color: rgb(148, 5, 161);
     opacity: .5;
     transition: .3s;
 }
