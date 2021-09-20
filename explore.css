@@ -236,6 +236,28 @@ header .navbar ul li a:hover{
     padding:1rem 0;
     padding-left: 3rem;
 }
+table{
+    margin-top: 1in;
+    margin-left: 1in;
+    width: 1300px;
+
+}
+th{
+    text-align: left;
+    font-size: 40px;
+    color: rgb(247, 60, 247);
+    
+}
+td{
+    text-align: left;
+    font-size: 25px;
+    color: white;
+}
+table, th, td {
+    
+    
+    border: 2px solid rgb(188, 8, 194);
+}
 
 .education .box-container .box{
     width:27rem;
